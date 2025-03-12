@@ -1,5 +1,7 @@
+import React from "react";
 import type { Preview } from "@storybook/react";
 import "../src/index.css";
+import ThemeWrapper from "../src/components/wrappers/ThemeWrapper/ThemeWrapper";
 
 const preview: Preview = {
   parameters: {
@@ -10,6 +12,15 @@ const preview: Preview = {
       },
     },
   },
+  decorators: [
+    (Story) => {
+      return (
+        <ThemeWrapper>
+          <Story />
+        </ThemeWrapper>
+      );
+    },
+  ],
 };
 
 export default preview;
