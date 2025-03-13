@@ -3,15 +3,16 @@ import { IconContext } from "react-icons";
 import { FaCircleXmark } from "react-icons/fa6";
 
 interface IconNoProps {
-  focus: boolean;
+  level: "primary" | "secondary";
 }
-function IconNo({ focus }: IconNoProps) {
+function IconNo({ level }: IconNoProps) {
   return (
     <IconContext.Provider
       value={{
-        color: focus
-          ? "bg-violet-100 dark:bg-violet-200"
-          : "bg-violet-500 dark:bg-violet-300",
+        className:
+          level === "primary"
+            ? "text-violet-300 dark:text-gray-300"
+            : "text-violet-500 dark:text-violet-500",
       }}
     >
       <FaCircleXmark />

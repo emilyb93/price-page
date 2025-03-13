@@ -2,15 +2,16 @@ import { IconContext } from "react-icons";
 import { FaCircleCheck } from "react-icons/fa6";
 
 interface IconYesProps {
-  focus: boolean;
+  level: "primary" | "secondary";
 }
-function IconYes({ focus }: IconYesProps) {
+function IconYes({ level }: IconYesProps) {
   return (
     <IconContext.Provider
       value={{
-        color: focus
-          ? "bg-violet-100 dark:bg-violet-200"
-          : "bg-violet-500 dark:bg-violet-300",
+        className:
+          level === "primary"
+            ? "text-violet-500 dark:text-violet-300"
+            : "text-violet-100 dark:text-violet-200",
       }}
     >
       <FaCircleCheck />
