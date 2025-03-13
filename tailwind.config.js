@@ -3,6 +3,24 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      shadow: {
+        light: {
+          sm: "0px 4px 14px 0px #a78bfa",
+          base: "0px 4px 24px 0px #a78bfa",
+          md: "0px 4px 34px 0px #a78bfa",
+          lg: "0px 4px 44px 0px #a78bfa",
+          xl: "0px 4px 54px 0px #a78bfa",
+          "2xl": "0px 4px 74px 0px #a78bfa",
+        },
+        dark: {
+          sm: "0px 4px 14px 0px #020617",
+          base: "0px 4px 24px 0px #020617",
+          md: "0px 4px 34px 0px #020617",
+          lg: "0px 4px 44px 0px #020617",
+          xl: "0px 4px 54px 0px #020617",
+          "2xl": "0px 4px 74px 0px #020617",
+        },
+      },
       fontFamily: {
         satoshi: ["Satoshi", "sans-serif"],
       },

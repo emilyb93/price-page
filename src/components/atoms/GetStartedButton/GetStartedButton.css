@@ -1,0 +1,70 @@
+/* Base Button Styles */
+.button {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* Disabled State */
+
+/* Primary Variant */
+.button-primary {
+  color: #f9f8f6; /* light text for light mode */
+  background-color: #f97316; /* orange-500 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* light shadow */
+}
+
+.button-primary:hover {
+  background-color: #ea580c; /* orange-600 */
+}
+
+.button-primary:disabled {
+  background-color: #c084fc; /* violet-300 */
+}
+
+/* Dark Mode - Primary */
+.dark .button-primary {
+  color: #6d28d9; /* violet-700 */
+  background-color: #f4eeff; /* violet-50 */
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* dark shadow */
+}
+
+.dark .button-primary:hover {
+  background-color: #ebe4ff; /* violet-100 */
+}
+
+.dark .button-primary:disabled {
+  background-color: #a78bfa; /* violet-400 */
+}
+
+/* Secondary Variant */
+.button-secondary {
+  color: #f1f5f9; /* light text for light mode */
+  background-color: #3b82f6; /* blue-500 */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* light shadow */
+}
+
+.button-secondary:hover {
+  background-color: #2563eb; /* blue-600 */
+}
+
+.button-secondary:disabled {
+  background-color: #86efac; /* green-300 */
+}
+
+/* Dark Mode - Secondary */
+.dark .button-secondary {
+  color: #064e3b; /* green-700 */
+  background-color: #ecfdf5; /* green-50 */
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* dark shadow */
+}
+
+.dark .button-secondary:hover {
+  background-color: #d1fae5; /* green-100 */
+}
+
+.dark .button-secondary:disabled {
+  background-color: #4ade80; /* green-400 */
+}

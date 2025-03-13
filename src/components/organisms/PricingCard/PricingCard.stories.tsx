@@ -32,15 +32,53 @@ const testCardInfo: PlanInfo = {
   ],
 };
 
-export const PricingCardPrimary: Story = {
+export const PricingCardPrimarySelected: Story = {
   args: {
     level: "primary",
     planInfo: testCardInfo,
+    selected: true,
   },
 };
-export const PricingCardSecondary: Story = {
+export const PricingCardSecondarySelected: Story = {
   args: {
     level: "secondary",
     planInfo: testCardInfo,
+    selected: true,
+  },
+};
+
+export const PricingCardPrimaryDisabled: Story = {
+  args: {
+    level: "primary",
+    planInfo: testCardInfo,
+    selected: false,
+  },
+};
+export const PricingCardSecondaryDisabled: Story = {
+  args: {
+    level: "secondary",
+    planInfo: testCardInfo,
+    selected: false,
+  },
+};
+
+export const MultiplePricingCards: Story = {
+  args: {
+    planInfo: testCardInfo,
+    selected: false,
+    level: "primary",
+  },
+  render: () => {
+    return (
+      <div className="flex flex-row">
+        <PricingCard level="primary" planInfo={testCardInfo} selected={false} />
+        <PricingCard
+          level="secondary"
+          planInfo={testCardInfo}
+          selected={true}
+        />
+        <PricingCard level="primary" planInfo={testCardInfo} selected={false} />
+      </div>
+    );
   },
 };

@@ -2,15 +2,15 @@ import { useMemo } from "react";
 
 interface PriceTextProps {
   price: number;
-  focus: boolean;
+  level: boolean;
 }
 
-function PriceText({ price, focus }: PriceTextProps) {
+function PriceText({ price, level }: PriceTextProps) {
   const fontColour = useMemo(() => {
-    return focus
+    return level
       ? "text-violet-50 dark:text-gray-100"
       : "text-violet-950 dark:text-violet-50";
-  }, [focus]);
+  }, [level]);
   return (
     <div className={"flex flex-row items-center"}>
       <p className={["text-5xl font-bold", fontColour].join(" ")}>${price}</p>

@@ -1,3 +1,4 @@
+import GetStartedButton from "../../atoms/GetStartedButton/GetStartedButton";
 import PriceText from "../../atoms/PriceText/PriceText";
 import Feature from "../../molecules/Feature/Feature";
 
@@ -14,6 +15,7 @@ export interface PlanInfo {
 interface PricingCardProps {
   planInfo: PlanInfo;
   level: "primary" | "secondary";
+  selected: boolean;
 }
 
 const colours = {
@@ -27,15 +29,15 @@ const colours = {
   },
 };
 
-function PricingCard({ level, planInfo }: PricingCardProps) {
+function PricingCard({ level, planInfo, selected }: PricingCardProps) {
   const { title, subtitle, price, features } = planInfo;
   return (
     <div
       className={[
         "h-150 w-90 flex flex-col p-5 ",
         level === "primary"
-          ? "bg-violet-50 dark:bg-gray-800"
-          : "bg-violet-800 dark:bg-violet-800",
+          ? "bg-violet-100 dark:bg-gray-700"
+          : "bg-violet-700 dark:bg-violet-700",
       ].join(" ")}
     >
       <h2
@@ -51,7 +53,8 @@ function PricingCard({ level, planInfo }: PricingCardProps) {
       >
         {subtitle}
       </h3>
-      <PriceText price={price} focus={level === "secondary"} />
+      <PriceText price={price} level={level === "secondary"} />
+      <GetStartedButton selected={selected} level={level} />
       <ul className="my-2">
         {features.map((feature) => {
           return (
