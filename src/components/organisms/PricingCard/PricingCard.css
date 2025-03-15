@@ -10,6 +10,7 @@
   margin: 1rem auto;
   background-color: var(--color-violet-100);
   transition: all 0.3s ease;
+  margin: 2rem 5px;
 }
 
 /* Hover styles for pricing card */
@@ -37,6 +38,7 @@
   margin: 0.5rem 0;
   text-align: left;
   color: var(--color-violet-950);
+  transition: all 0.3s ease;
 }
 
 /* Hover styles for pricing card title */
@@ -62,6 +64,7 @@
   margin: 0.5rem 0;
   color: var(--color-violet-400);
   height: 15%;
+  transition: all 0.3s ease;
 }
 
 /* Hover styles for pricing card subtitle */
@@ -89,6 +92,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   height: 100%;
+  margin-bottom: 0.5rem;
 }
 
 /* Base styles for pricing card plan information */
@@ -97,4 +101,5 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  margin-bottom: 1.5rem;
 }

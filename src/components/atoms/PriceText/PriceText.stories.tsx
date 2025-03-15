@@ -17,12 +17,10 @@ type Story = StoryObj<typeof meta>;
 export const PriceTextDefault: Story = {
   args: {
     price: 25,
-    isHover: false,
   },
 };
 export const PriceTextFocus: Story = {
   args: {
     price: 25,
-    isHover: true,
   },
 };

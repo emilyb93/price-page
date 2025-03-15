@@ -6,17 +6,19 @@
   width: 100%;
   transition: all 0.3s ease;
   cursor: pointer;
+  border: 1px solid var(--color-violet-500);
+  color: var(--color-violet-700);
 }
 
 /* Secondary Variant */
 .pricing-card:hover .button {
   color: var(--color-violet-700);
   background-color: var(--color-violet-100);
-  box-shadow: var(--shadow-light-sm);
 }
 
 .button:hover {
   background-color: var(--color-violet-100);
+  box-shadow: var(--shadow-light-sm);
 }
 
 .button:disabled {
@@ -27,11 +29,12 @@
 .dark .button {
   color: var(--color-violet-300);
   background-color: var(--color-gray-600);
-  box-shadow: var(--shadow-dark-sm);
+  border: 1px solid var(--color-violet-700);
 }
 
 .dark .button:hover {
   background-color: var(--color-gray-700);
+  box-shadow: var(--shadow-dark-sm);
 }
 
 .dark .button:disabled {
@@ -42,7 +45,6 @@
 .pricing-card:hover .button {
   color: var(--color-violet-50);
   background-color: var(--color-orange-500);
-  box-shadow: var(--shadow-light-sm);
 }
 
 .pricing-card:hover .button:hover {
@@ -57,7 +59,6 @@
 .dark .pricing-card:hover .button {
   color: var(--color-violet-700);
   background-color: var(--color-violet-50);
-  box-shadow: var(--shadow-dark-sm);
 }
 
 .dark .pricing-card:hover .button:hover {

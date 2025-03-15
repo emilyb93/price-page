@@ -37,22 +37,6 @@ export const PricingCardPrimarySelected: Story = {
     planInfo: testCardInfo,
   },
 };
-export const PricingCardSecondarySelected: Story = {
-  args: {
-    planInfo: testCardInfo,
-  },
-};
-
-export const PricingCardPrimaryDisabled: Story = {
-  args: {
-    planInfo: testCardInfo,
-  },
-};
-export const PricingCardSecondaryDisabled: Story = {
-  args: {
-    planInfo: testCardInfo,
-  },
-};
 
 export const MultiplePricingCards: Story = {
   args: {

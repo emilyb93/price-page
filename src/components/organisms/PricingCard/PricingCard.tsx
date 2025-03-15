@@ -34,6 +34,7 @@ function PricingCard({ planInfo }: PricingCardProps) {
           {features.map((feature) => {
             return (
               <Feature
+                key={feature.featureText}
                 text={feature.featureText}
                 available={feature.available}
               />

@@ -1,7 +1,7 @@
 /* Default styles for the icon (light mode) */
 .icon-yes {
   color: var(--color-violet-500);
-  transition: color 0.3s ease; /* Smooth transition for hover effect */
+  transition: color 0.3s ease;
   height: 2rem;
   width: 2rem;
 }

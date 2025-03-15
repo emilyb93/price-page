@@ -1,6 +1,6 @@
 .title {
-  font-size: 2.25rem;
-  font-weight: bold;
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
   color: var(--color-violet-950);
 }
 
@@ -10,8 +10,6 @@
 
 .title-highlight {
   color: var(--color-violet-600);
-  font-family: "Satoshi", sans-serif;
-  font-style: italic;
 }
 
 .dark .title-highlight {

@@ -1,6 +1,6 @@
 /* Default styles for the icon (light mode) */
 .icon-no {
-  color: var(--color-violet-200);
+  color: var(--color-violet-300);
   transition: color 0.3s ease;
   height: 2rem;
   width: 2rem;
@@ -13,7 +13,7 @@
 
 /* Dark mode styles */
 .dark .icon-no {
-  color: var(--color-gray-300);
+  color: var(--color-gray-500);
 }
 
 /* Hover effect for dark mode */

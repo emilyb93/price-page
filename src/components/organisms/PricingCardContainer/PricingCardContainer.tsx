@@ -6,7 +6,7 @@ function PricingCardContainer() {
   return (
     <div className="pricing-card-container">
       {cardInfo.plans.map((plan) => (
-        <PricingCard planInfo={plan} />
+        <PricingCard key={plan.title} planInfo={plan} />
       ))}
     </div>
   );

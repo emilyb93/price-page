@@ -4,7 +4,7 @@
   height: 80%;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1220px) {
   .pricing-card-container {
     flex-direction: column;
   }
