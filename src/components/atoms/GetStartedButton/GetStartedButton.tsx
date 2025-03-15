@@ -1,11 +1,12 @@
 import "./GetStartedButton.css";
 export type GetStartedButtonProps = {
-  level: "primary" | "secondary";
-  selected: boolean;
+  isHover: boolean;
 };
-function GetStartedButton({ level, selected }: GetStartedButtonProps) {
-  const baseClass = `button button-${level}`;
-  const disabledClass = !selected ? "button-disabled" : "";
+function GetStartedButton({ isHover }: GetStartedButtonProps) {
+  const baseClass = `button button-${
+    isHover === true ? "primary" : "secondary"
+  }`;
+  const disabledClass = !isHover ? "button-disabled" : "";
 
   return (
     <button className={`${baseClass} ${disabledClass} my-3`}>

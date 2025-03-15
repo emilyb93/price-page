@@ -23,24 +23,24 @@ const testFeatures = [
 export const FeatureAvailableDefault: Story = {
   args: {
     ...testFeatures[0],
-    focus: false,
+    isHover: false,
   },
 };
 export const FeatureUnavailableDefault: Story = {
   args: {
     ...testFeatures[1],
-    focus: false,
+    isHover: false,
   },
 };
 export const FeatureAvailableFocus: Story = {
   args: {
     ...testFeatures[0],
-    focus: true,
+    isHover: true,
   },
 };
 export const FeatureUnavailableFocus: Story = {
   args: {
     ...testFeatures[1],
-    focus: true,
+    isHover: true,
   },
 };

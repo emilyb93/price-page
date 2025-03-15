@@ -17,7 +17,7 @@ type Story = StoryObj<typeof meta>;
 
 export const IconYesDefault: Story = {
   args: {
-    focus: false,
+    isHover: false,
   },
   render: (args) => {
     return (
@@ -29,7 +29,7 @@ export const IconYesDefault: Story = {
 };
 export const IconYesFocus: Story = {
   args: {
-    focus: true,
+    isHover: true,
   },
   render: (args) => {
     return (

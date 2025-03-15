@@ -2,16 +2,15 @@ import { IconContext } from "react-icons";
 import { FaCircleCheck } from "react-icons/fa6";
 
 interface IconYesProps {
-  level: "primary" | "secondary";
+  isHover: boolean;
 }
-function IconYes({ level }: IconYesProps) {
+function IconYes({ isHover }: IconYesProps) {
   return (
     <IconContext.Provider
       value={{
-        className:
-          level === "primary"
-            ? "text-violet-500 dark:text-violet-300"
-            : "text-violet-100 dark:text-violet-200",
+        className: isHover
+          ? "text-violet-100 dark:text-violet-200"
+          : "text-violet-500 dark:text-violet-300",
       }}
     >
       <FaCircleCheck />

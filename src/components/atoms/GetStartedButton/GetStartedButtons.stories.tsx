@@ -17,12 +17,12 @@ type Story = StoryObj<typeof meta>;
 
 export const GetStartedButtonPrimary: Story = {
   args: {
-    level: "primary",
+    isHover: false,
   },
 };
 
 export const GetStartedButtonSecondary: Story = {
   args: {
-    level: "primary",
+    isHover: true,
   },
 };

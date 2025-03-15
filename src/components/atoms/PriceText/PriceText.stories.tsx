@@ -14,15 +14,15 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const PriceTextFocus: Story = {
-  args: {
-    price: 25,
-    focus: true,
-  },
-};
 export const PriceTextDefault: Story = {
   args: {
     price: 25,
-    focus: false,
+    isHover: false,
+  },
+};
+export const PriceTextFocus: Story = {
+  args: {
+    price: 25,
+    isHover: true,
   },
 };
