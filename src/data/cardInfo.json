@@ -1,0 +1,85 @@
+{
+  "plans": [
+    {
+      "title": "Free",
+      "subtitle": "Ideal for individuals who need quick access to basic features.",
+      "price": 0,
+      "features": [
+        { "featureText": "20,000+ of PNG & SVG graphics", "available": true },
+        {
+          "featureText": "Access to 100 million stock images",
+          "available": true
+        },
+        { "featureText": "Upload custom icons and fonts", "available": false },
+        { "featureText": "Unlimited Sharing", "available": false },
+        {
+          "featureText": "Upload graphics & video in up to 4k",
+          "available": false
+        },
+        { "featureText": "Unlimited Projects", "available": false },
+        {
+          "featureText": "Instant Access to our design system",
+          "available": false
+        },
+        {
+          "featureText": "Create teams to collaborate on designs",
+          "available": false
+        }
+      ]
+    },
+    {
+      "title": "Professional",
+      "subtitle": "Ideal for individuals who need advanced features and tools for client work.",
+      "price": 25,
+      "features": [
+        { "featureText": "20,000+ of PNG & SVG graphics", "available": true },
+        {
+          "featureText": "Access to 100 million stock images",
+          "available": true
+        },
+        { "featureText": "Upload custom icons and fonts", "available": true },
+        { "featureText": "Unlimited Sharing", "available": true },
+        {
+          "featureText": "Upload graphics & video in up to 4k",
+          "available": true
+        },
+        { "featureText": "Unlimited Projects", "available": true },
+        {
+          "featureText": "Instant Access to our design system",
+          "available": false
+        },
+        {
+          "featureText": "Create teams to collaborate on designs",
+          "available": false
+        }
+      ]
+    },
+    {
+      "title": "Enterprise",
+      "subtitle": "Ideal for businesses who need personalised services and security for large teams.",
+      "price": 100,
+      "features": [
+        { "featureText": "20,000+ of PNG & SVG graphics", "available": true },
+        {
+          "featureText": "Access to 100 million stock images",
+          "available": true
+        },
+        { "featureText": "Upload custom icons and fonts", "available": true },
+        { "featureText": "Unlimited Sharing", "available": true },
+        {
+          "featureText": "Upload graphics & video in up to 4k",
+          "available": true
+        },
+        { "featureText": "Unlimited Projects", "available": true },
+        {
+          "featureText": "Instant Access to our design system",
+          "available": true
+        },
+        {
+          "featureText": "Create teams to collaborate on designs",
+          "available": true
+        }
+      ]
+    }
+  ]
+}
