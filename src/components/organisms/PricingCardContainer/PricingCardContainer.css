@@ -1,0 +1,17 @@
+.pricing-card-container {
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+}
+
+@media (max-width: 1200px) {
+  .pricing-card-container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .pricing-card-container {
+    flex-direction: column;
+  }
+}

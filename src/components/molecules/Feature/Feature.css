@@ -1,0 +1,48 @@
+/* Container styles */
+.feature-container {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-shrink: 1;
+  margin: 0.3rem 0;
+}
+
+/* Font color styles for light mode */
+.font-yes {
+  color: var(--color-violet-950);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-base);
+  font-size: var(--font-size-base);
+}
+
+.pricing-card:hover .font-yes {
+  color: var(--color-violet-50);
+}
+
+.font-no {
+  color: var(--color-violet-400);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-base);
+  font-size: var(--font-size-base);
+}
+
+.pricing-card:hover .font-no {
+  color: var(--color-violet-400);
+}
+
+/* Font color styles for dark mode */
+.dark .font-yes {
+  color: var(--color-violet-50);
+}
+
+.dark .font-yes-hover {
+  color: var(--color-gray-100);
+}
+
+.dark .font-no {
+  color: var(--color-gray-400);
+}
+
+.dark .font-no-hover {
+  color: var(--color-violet-400);
+}

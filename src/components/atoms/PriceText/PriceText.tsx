@@ -1,17 +1,14 @@
+import "./PriceText.css";
+
 interface PriceTextProps {
   price: number;
-  isHover: boolean;
 }
 
-function PriceText({ price, isHover }: PriceTextProps) {
-  const fontColour = isHover
-    ? "text-violet-50 dark:text-gray-100"
-    : "text-violet-950 dark:text-violet-50";
-
+function PriceText({ price }: PriceTextProps) {
   return (
-    <div className={"flex flex-row items-center"}>
-      <p className={["text-5xl font-bold", fontColour].join(" ")}>${price}</p>
-      <p className={["text-1xl ml-2", fontColour].join(" ")}>/ Month</p>
+    <div className="price-text-container">
+      <p className="price-text">${price}</p>
+      <p className="price-period">/ Month</p>
     </div>
   );
 }

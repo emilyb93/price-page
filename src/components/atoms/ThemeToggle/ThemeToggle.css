@@ -1,0 +1,37 @@
+/* Base styles */
+.theme-toggle {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  padding: 0.75rem;
+  border-radius: 9999px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  background-color: var(--color-gray-700);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effects (light mode) */
+.theme-toggle:hover {
+  background-color: var(--color-gray-600);
+}
+
+/* Dark mode styles */
+.dark .theme-toggle {
+  background-color: var(--color-violet-200);
+}
+
+/* Dark mode hover effect */
+.dark .theme-toggle:hover {
+  background-color: var(--color-violet-50);
+}
+
+/* Icon colour light mode */
+.theme-toggle-icon {
+  color: var(--color-violet-50);
+}
+
+/* Icon colour dark mode */
+.dark .theme-toggle-icon {
+  color: var(--color-gray-700);
+}

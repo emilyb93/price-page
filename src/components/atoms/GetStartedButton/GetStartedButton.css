@@ -3,68 +3,67 @@
   padding: 0.5rem 1rem;
   border-radius: 4px;
   font-weight: 500;
+  width: 100%;
   transition: all 0.3s ease;
   cursor: pointer;
 }
 
-/* Disabled State */
-
-/* Primary Variant */
-.button-primary {
-  color: #f9f8f6; /* light text for light mode */
-  background-color: #f97316; /* orange-500 */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* light shadow */
-}
-
-.button-primary:hover {
-  background-color: #ea580c; /* orange-600 */
-}
-
-.button-primary:disabled {
-  background-color: #c084fc; /* violet-300 */
-}
-
-/* Dark Mode - Primary */
-.dark .button-primary {
-  color: #6d28d9; /* violet-700 */
-  background-color: #f4eeff; /* violet-50 */
-  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* dark shadow */
-}
-
-.dark .button-primary:hover {
-  background-color: #ebe4ff; /* violet-100 */
-}
-
-.dark .button-primary:disabled {
-  background-color: #a78bfa; /* violet-400 */
-}
-
 /* Secondary Variant */
-.button-secondary {
-  color: #f1f5f9; /* light text for light mode */
-  background-color: #3b82f6; /* blue-500 */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* light shadow */
+.pricing-card:hover .button {
+  color: var(--color-violet-700);
+  background-color: var(--color-violet-100);
+  box-shadow: var(--shadow-light-sm);
 }
 
-.button-secondary:hover {
-  background-color: #2563eb; /* blue-600 */
+.button:hover {
+  background-color: var(--color-violet-100);
 }
 
-.button-secondary:disabled {
-  background-color: #86efac; /* green-300 */
+.button:disabled {
+  background-color: var(--color-violet-400);
 }
 
 /* Dark Mode - Secondary */
-.dark .button-secondary {
-  color: #064e3b; /* green-700 */
-  background-color: #ecfdf5; /* green-50 */
-  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* dark shadow */
+.dark .button {
+  color: var(--color-violet-300);
+  background-color: var(--color-gray-600);
+  box-shadow: var(--shadow-dark-sm);
 }
 
-.dark .button-secondary:hover {
-  background-color: #d1fae5; /* green-100 */
+.dark .button:hover {
+  background-color: var(--color-gray-700);
 }
 
-.dark .button-secondary:disabled {
-  background-color: #4ade80; /* green-400 */
+.dark .button:disabled {
+  background-color: var(--color-gray-500);
+}
+
+/* Primary Variant on Pricing Card Hover */
+.pricing-card:hover .button {
+  color: var(--color-violet-50);
+  background-color: var(--color-orange-500);
+  box-shadow: var(--shadow-light-sm);
+}
+
+.pricing-card:hover .button:hover {
+  background-color: var(--color-orange-600);
+}
+
+.pricing-card:hover .button:disabled {
+  background-color: var(--color-violet-300);
+}
+
+/* Dark Mode - Pricing Card Hover */
+.dark .pricing-card:hover .button {
+  color: var(--color-violet-700);
+  background-color: var(--color-violet-50);
+  box-shadow: var(--shadow-dark-sm);
+}
+
+.dark .pricing-card:hover .button:hover {
+  background-color: var(--color-violet-100);
+}
+
+.dark .pricing-card:hover .button:disabled {
+  background-color: var(--color-violet-400);
 }

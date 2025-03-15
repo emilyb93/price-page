@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useDarkMode } from "usehooks-ts";
-import { ThemeToggle } from "../../atoms/ModeToggle/ModeToggle";
+import { ThemeToggle } from "../../atoms/ThemeToggle/ThemeToggle";
 
 interface ThemeWrapperProps {
   children: React.ReactNode;
@@ -15,7 +15,6 @@ function ThemeWrapper({ children }: ThemeWrapperProps) {
     } else {
       document.documentElement.classList.remove("dark");
     }
-    console.log("isDarkMode", isDarkMode);
   }, [isDarkMode]);
 
   return (

@@ -1,21 +1,13 @@
 import { IconContext } from "react-icons";
-
 import { FaCircleXmark } from "react-icons/fa6";
+import "./IconNo.css";
 
-interface IconNoProps {
-  isHover: boolean;
-}
-function IconNo({ isHover }: IconNoProps) {
+function IconNo() {
   return (
-    <IconContext.Provider
-      value={{
-        className: isHover
-          ? "text-violet-500 dark:text-violet-500"
-          : "text-violet-300 dark:text-gray-300",
-      }}
-    >
+    <IconContext.Provider value={{ className: "icon-no" }}>
       <FaCircleXmark />
     </IconContext.Provider>
   );
 }
+
 export default IconNo;

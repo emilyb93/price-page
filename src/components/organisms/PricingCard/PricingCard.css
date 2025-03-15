@@ -1,0 +1,100 @@
+/* Base styles for pricing card */
+.pricing-card {
+  width: 100%;
+  max-width: 30rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  border-radius: var(--border-radius-md);
+  margin: 1rem auto;
+  background-color: var(--color-violet-100);
+  transition: all 0.3s ease;
+}
+
+/* Hover styles for pricing card */
+.pricing-card:hover {
+  transform: scale(1.05);
+  z-index: 10;
+  background-color: var(--color-violet-700);
+  box-shadow: var(--shadow-light-lg);
+}
+
+/* Dark mode styles for pricing card */
+.dark .pricing-card {
+  background-color: var(--color-gray-700);
+}
+
+.dark .pricing-card:hover {
+  background-color: var(--color-violet-700);
+  box-shadow: var(--shadow-dark-lg);
+}
+
+/* Base styles for pricing card title */
+.pricing-card-title {
+  font-weight: bold;
+  font-size: 3rem;
+  margin: 0.5rem 0;
+  text-align: left;
+  color: var(--color-violet-950);
+}
+
+/* Hover styles for pricing card title */
+.pricing-card:hover .pricing-card-title {
+  color: var(--color-violet-50);
+}
+
+/* Dark mode styles for pricing card title */
+.dark .pricing-card-title {
+  color: var(--color-violet-50);
+}
+
+.dark .pricing-card:hover .pricing-card-title {
+  color: var(--color-gray-100);
+}
+
+/* Base styles for pricing card subtitle */
+.pricing-card-subtitle {
+  font-weight: var(--font-weight-medium);
+  font-size: var(--font-size-base);
+  align-self: flex-start;
+  text-align: left;
+  margin: 0.5rem 0;
+  color: var(--color-violet-400);
+  height: 15%;
+}
+
+/* Hover styles for pricing card subtitle */
+.pricing-card:hover .pricing-card-subtitle {
+  color: var(--color-violet-400);
+}
+
+/* Dark mode styles for pricing card subtitle */
+.dark .pricing-card-subtitle {
+  color: var(--color-gray-400);
+}
+
+.dark .pricing-card:hover .pricing-card-subtitle {
+  color: var(--color-violet-400);
+}
+
+/* Base styles for pricing card features */
+.pricing-card-features-section {
+  margin: 0.5rem 0;
+
+  height: 100%;
+}
+.pricing-card-features {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+/* Base styles for pricing card plan information */
+.pricing-card-plan-section {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}

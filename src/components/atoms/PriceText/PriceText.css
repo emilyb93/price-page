@@ -1,0 +1,43 @@
+/* Container styling */
+.price-text-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* Price text styling (default, light mode) */
+.price-text {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--color-violet-950);
+  transition: color 0.3s ease;
+}
+
+/* Price period text styling (default, light mode) */
+.price-period {
+  font-size: 1.25rem;
+  margin-left: 0.5rem;
+  color: var(--color-violet-950);
+  transition: color 0.3s ease;
+}
+
+/* Hover effect (light mode) */
+.pricing-card:hover .price-text,
+.pricing-card:hover .price-period {
+  color: var(--color-violet-50);
+}
+
+/* Dark mode styles */
+.dark .price-text {
+  color: var(--color-violet-50);
+}
+
+.dark .price-period {
+  color: var(--color-violet-50);
+}
+
+/* Hover effect (dark mode) */
+.dark .pricing-card:hover .price-text,
+.dark .pricing-card:hover .price-period {
+  color: var(--color-gray-100);
+}

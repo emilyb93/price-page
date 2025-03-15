@@ -1,0 +1,22 @@
+/* Default styles for the icon (light mode) */
+.icon-no {
+  color: var(--color-violet-200);
+  transition: color 0.3s ease;
+  height: 2rem;
+  width: 2rem;
+}
+
+/* Hover effect for light mode */
+.pricing-card:hover .icon-no {
+  color: var(--color-violet-500);
+}
+
+/* Dark mode styles */
+.dark .icon-no {
+  color: var(--color-gray-300);
+}
+
+/* Hover effect for dark mode */
+.pricing-card:hover .dark .icon-no-hover {
+  color: var(--color-violet-500);
+}
