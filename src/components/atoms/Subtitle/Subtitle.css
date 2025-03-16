@@ -6,3 +6,7 @@
   line-height: var(--line-height-base);
   height: 3rem;
 }
+
+.dark .subtitle {
+  color: var(--color-gray-400);
+}
