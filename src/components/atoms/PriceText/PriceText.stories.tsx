@@ -14,8 +14,15 @@ const meta = {
 export default meta;
 type Story = StoryObj<typeof meta>;
 
-export const PriceTextDefault: Story = {
+export const PriceTextMonthly: Story = {
   args: {
     price: 25,
+    period: "Month",
+  },
+};
+export const PriceTextYearly: Story = {
+  args: {
+    price: 250,
+    period: "Year",
   },
 };
