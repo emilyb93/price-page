@@ -8,15 +8,17 @@
 
 /* Price text styling (default, light mode) */
 .price-text {
-  font-size: 3rem;
-  font-weight: bold;
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
   color: var(--color-violet-950);
   transition: color 0.3s ease;
 }
 
 /* Price period text styling (default, light mode) */
 .price-period {
-  font-size: 1.25rem;
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--line-height-base);
   margin-left: 0.5rem;
   color: var(--color-violet-950);
   transition: color 0.3s ease;

@@ -4,7 +4,7 @@
   bottom: 1.5rem;
   right: 1.5rem;
   padding: 0.75rem;
-  border-radius: 9999px;
+  border-radius: var(--border-radius-pill);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   z-index: 100;
   background-color: var(--color-gray-700);
@@ -24,6 +24,7 @@
 /* Dark mode hover effect */
 .dark .theme-toggle:hover {
   background-color: var(--color-violet-50);
+  scale: 1.15;
 }
 
 /* Icon colour light mode */

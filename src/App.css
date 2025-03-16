@@ -1,3 +1,7 @@
+body {
+  padding-inline-start: 0.5rem;
+}
+
 #root {
   max-width: 1280px;
   text-align: center;
@@ -17,14 +21,11 @@
   min-height: 20vh;
 }
 
-@media (max-width: 1220px) {
-  .title-container {
-    height: 30vh;
-  }
-}
 @media (max-width: 480pc) {
   body {
     width: 90vw;
     margin: auto 1rem 0 0.5rem;
+    padding-inline-start: 0;
+    margin-left: 0rem;
   }
 }
