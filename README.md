@@ -1,5 +1,9 @@
 # Responsive Pricing Page
 
+You can find a hosted version of this repo [here](https://pricing-page-dl8mpvy0n-emilys-projects-8c3f1a88.vercel.app/)
+
+The purpose of this project was to create a responsive pricing page with 3 different plans, that adjusts well to different screen sizes and has different styling based on the card you are hovering over. I was also asked to include a dark/light mode toggle of my own design. I chose a sun and moon from React Icons to visualise this to the user, with a button that stays at the bottom right for easy access.
+
 This README provides instructions on how to set up and run the React application on your local machine, including how to run Storybook.
 
 ## Prerequisites
@@ -14,8 +18,8 @@ Before you begin, ensure you have the following installed on your machine:
 1. **Clone the repository:**
 
 ```sh
-git clone https://github.com/yourusername/payara-tech-test-emilyb93.git
-cd payara-tech-test-emilyb93
+git clone https://github.com/emilyb93/price-page.git
+cd price-page
 ```
 
 2. **Install dependencies:**
@@ -39,13 +43,13 @@ To start the React application locally, use the following command:
 Using npm:
 
 ```sh
-npm start
+npm run dev
 ```
 
 Or using yarn:
 
 ```sh
-yarn start
+yarn dev
 ```
 
 The application will be available at `http://localhost:5174`.
@@ -87,7 +91,3 @@ Storybook will be available at `http://localhost:6006`.
 ## Contributing
 
 If you would like to contribute to this project, please fork the repository and create a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License.
