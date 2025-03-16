@@ -20,7 +20,8 @@ const testCardInfo: PlanInfo = {
   title: "Professional",
   subtitle:
     "Ideal for individuals who need advanced features and tools for client work.",
-  price: 25,
+  pricePerMonth: 25,
+  pricePerYear: 100,
   features: [
     { featureText: "20,000+ of PNG & SVG graphics", available: true },
     { featureText: "Access to 100 million stock images", available: true },

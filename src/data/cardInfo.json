@@ -3,7 +3,8 @@
     {
       "title": "Freebie",
       "subtitle": "Ideal for individuals who need quick access to basic features.",
-      "price": 0,
+      "pricePerMonth": 0,
+      "pricePerYear": 0,
       "features": [
         { "featureText": "20,000+ of PNG & SVG graphics", "available": true },
         {
@@ -30,7 +31,8 @@
     {
       "title": "Professional",
       "subtitle": "Ideal for individuals who need advanced features and tools for client work.",
-      "price": 25,
+      "pricePerMonth": 25,
+      "pricePerYear": 250,
       "features": [
         { "featureText": "20,000+ of PNG & SVG graphics", "available": true },
         {
@@ -57,7 +59,8 @@
     {
       "title": "Enterprise",
       "subtitle": "Ideal for businesses who need personalised services and security for large teams.",
-      "price": 100,
+      "pricePerMonth": 100,
+      "pricePerYear": 1000,
       "features": [
         { "featureText": "20,000+ of PNG & SVG graphics", "available": true },
         {

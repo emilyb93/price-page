@@ -3,12 +3,12 @@ import PricingCard from "../PricingCard/PricingCard";
 import "./PricingCardContainer.css";
 
 function PricingCardContainer() {
-  const plans = usePlan();
+  const { planInfo } = usePlan();
 
-  if (!plans) return null;
+  if (!planInfo) return null;
   return (
     <div className="pricing-card-container">
-      {plans.map((plan) => (
+      {planInfo.map((plan) => (
         <PricingCard key={plan.title} planInfo={plan} />
       ))}
     </div>

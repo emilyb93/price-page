@@ -5,6 +5,7 @@ export interface FeatureInfo {
 export interface PlanInfo {
   title: string;
   subtitle: string;
-  price: number;
+  pricePerMonth: number;
+  pricePerYear: number;
   features: FeatureInfo[];
 }

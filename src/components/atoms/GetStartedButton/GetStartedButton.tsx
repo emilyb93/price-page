@@ -1,7 +1,20 @@
 import "./GetStartedButton.css";
-
-function GetStartedButton() {
-  return <button className={`button`}>Get Started Now</button>;
+import React from "react";
+interface GetStartedButtonProps {
+  setPeriod: React.Dispatch<React.SetStateAction<"Month" | "Year">>;
+}
+function GetStartedButton({ setPeriod }: GetStartedButtonProps) {
+  function handleClick() {
+    setPeriod((currPeriod) => {
+      if (currPeriod === "Month") return "Year";
+      return "Month";
+    });
+  }
+  return (
+    <button className={`button`} onClick={handleClick}>
+      Get Started Now
+    </button>
+  );
 }
 
 export default GetStartedButton;
