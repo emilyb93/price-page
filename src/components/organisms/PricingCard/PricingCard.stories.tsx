@@ -1,6 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import PricingCard, { PlanInfo } from "./PricingCard";
+import PricingCard from "./PricingCard";
+import { PlanInfo } from "../../../types";
 
 const meta = {
   title: "Molecules/PricingCard",
