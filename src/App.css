@@ -10,7 +10,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3rem 4rem 2rem 4rem;
 }
 .dark .app-container {
   background-color: var(--colours-gray-800);

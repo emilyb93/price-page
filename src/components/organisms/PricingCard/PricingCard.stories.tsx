@@ -44,7 +44,7 @@ export const MultiplePricingCards: Story = {
   },
   render: () => {
     return (
-      <div className="flex flex-row">
+      <div className="pricing-card-container">
         <PricingCard planInfo={testCardInfo} />
         <PricingCard planInfo={testCardInfo} />
         <PricingCard planInfo={testCardInfo} />

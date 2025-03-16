@@ -2,9 +2,12 @@
   display: flex;
   flex-direction: row;
   height: 80%;
+  width: 90%;
+  margin: 0 1rem;
+  align-items: center;
 }
 
-@media (max-width: 1220px) {
+@media (max-width: 1280px) {
   .pricing-card-container {
     flex-direction: column;
   }

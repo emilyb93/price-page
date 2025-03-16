@@ -1,7 +1,6 @@
 /* Subtitle text styling */
 .subtitle {
   color: var(--color-gray-600);
-  margin-top: 0.5rem;
   font-weight: var(--font-weight-medium);
   font-size: var(--font-size-base);
   line-height: var(--line-height-base);

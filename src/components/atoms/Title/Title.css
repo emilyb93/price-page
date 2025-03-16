@@ -2,6 +2,8 @@
   font-size: var(--font-size-xl);
   font-weight: var(--font-weight-bold);
   color: var(--color-violet-950);
+  height: 3rem;
+  margin-top: 3rem;
 }
 
 .dark .title {
