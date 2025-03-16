@@ -4,8 +4,8 @@
   max-width: 30rem;
   min-height: 40rem;
   /* height: 100%; */
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: 35% 60%;
   padding: 1.25rem;
   border-radius: var(--border-radius-md);
   margin: 1rem auto;
@@ -99,7 +99,7 @@
 
 /* Base styles for pricing card plan information */
 .pricing-card-plan-section {
-  height: 70%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;

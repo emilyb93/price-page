@@ -1,5 +1,12 @@
 @import url("https://fonts.cdnfonts.com/css/satoshi");
 
+html {
+  background-color: var(--color-violet-50);
+}
+.dark {
+  background-color: var(--color-gray-800);
+}
+
 :root {
   font-family: "Satoshi", sans-serif;
 

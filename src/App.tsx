@@ -8,8 +8,10 @@ import PricingCardContainer from "./components/organisms/PricingCardContainer/Pr
 function App() {
   return (
     <main className="app-container">
-      <Header />
-      <Subtitle />
+      <div>
+        <Header />
+        <Subtitle />
+      </div>
       <PricingCardContainer />
     </main>
   );

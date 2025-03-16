@@ -2,7 +2,7 @@
   font-size: var(--font-size-xl);
   font-weight: var(--font-weight-bold);
   color: var(--color-violet-950);
-  height: 3rem;
+
   margin-top: 3rem;
 }
 
@@ -16,4 +16,10 @@
 
 .dark .title-highlight {
   color: var(--color-violet-500);
+}
+@media (max-width: 1280px) {
+  .title {
+    display: flex;
+    flex-direction: column;
+  }
 }

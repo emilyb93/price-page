@@ -3,18 +3,22 @@
   flex-direction: row;
   height: 80%;
   width: 90%;
-  margin: 0 1rem;
   align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 1280px) {
   .pricing-card-container {
     flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
   }
 }
 
 @media (max-width: 768px) {
   .pricing-card-container {
     flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
   }
 }
