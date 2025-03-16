@@ -24,8 +24,8 @@ function PricingCard({ planInfo }: PricingCardProps) {
   return (
     <div className="pricing-card">
       <section className="pricing-card-plan-section">
-        <h2 className="pricing-card-title">{title}</h2>
-        <h3 className="pricing-card-subtitle">{subtitle}</h3>
+        <h3 className="pricing-card-title">{title}</h3>
+        <h4 className="pricing-card-subtitle">{subtitle}</h4>
         <PriceText price={price} />
         <GetStartedButton />
       </section>

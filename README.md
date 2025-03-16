@@ -1,6 +1,6 @@
 # Responsive Pricing Page
 
-You can find a hosted version of this repo [here](https://pricing-page-dl8mpvy0n-emilys-projects-8c3f1a88.vercel.app/)
+You can find a hosted version of this repo [here](https://pricing-page-murex.vercel.app/)
 
 The purpose of this project was to create a responsive pricing page with 3 different plans, that adjusts well to different screen sizes and has different styling based on the card you are hovering over. I was also asked to include a dark/light mode toggle of my own design. I chose a sun and moon from React Icons to visualise this to the user, with a button that stays at the bottom right for easy access.
 

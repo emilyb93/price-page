@@ -19,6 +19,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 20vh;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
 }
 
 @media (max-width: 480pc) {

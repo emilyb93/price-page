@@ -1,7 +1,7 @@
 import "./Subtitle.css";
 
 function Subtitle() {
-  return <p className="subtitle">Choose a plan that{`'`}s right for you</p>;
+  return <h2 className="subtitle">Choose a plan that{`'`}s right for you</h2>;
 }
 
 export default Subtitle;
