@@ -19,8 +19,3 @@ export const PriceTextDefault: Story = {
     price: 25,
   },
 };
-export const PriceTextFocus: Story = {
-  args: {
-    price: 25,
-  },
-};

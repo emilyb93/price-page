@@ -20,27 +20,13 @@ const testFeatures = [
   { text: "Upload custom icons and fonts", available: false },
 ];
 
-export const FeatureAvailableDefault: Story = {
+export const FeatureAvailable: Story = {
   args: {
     ...testFeatures[0],
-    isHover: false,
   },
 };
-export const FeatureUnavailableDefault: Story = {
+export const FeatureUnavailable: Story = {
   args: {
     ...testFeatures[1],
-    isHover: false,
-  },
-};
-export const FeatureAvailableFocus: Story = {
-  args: {
-    ...testFeatures[0],
-    isHover: true,
-  },
-};
-export const FeatureUnavailableFocus: Story = {
-  args: {
-    ...testFeatures[1],
-    isHover: true,
   },
 };

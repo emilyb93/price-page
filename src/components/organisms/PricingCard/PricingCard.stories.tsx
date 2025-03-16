@@ -32,7 +32,7 @@ const testCardInfo: PlanInfo = {
   ],
 };
 
-export const PricingCardPrimarySelected: Story = {
+export const PricingCardSingle: Story = {
   args: {
     planInfo: testCardInfo,
   },
