@@ -5,6 +5,7 @@
   gap: 0.75rem;
   flex-shrink: 1;
   margin: 0.3rem 0;
+  text-align: left;
 }
 
 /* Font color styles for light mode */

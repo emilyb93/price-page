@@ -8,7 +8,7 @@ import PricingCardContainer from "./components/organisms/PricingCardContainer/Pr
 function App() {
   return (
     <main className="app-container">
-      <div>
+      <div className="title-container">
         <Header />
         <Subtitle />
       </div>

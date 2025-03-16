@@ -4,6 +4,7 @@
   color: var(--color-violet-950);
 
   margin-top: 3rem;
+  margin-bottom: 0rem;
 }
 
 .dark .title {
@@ -21,5 +22,10 @@
   .title {
     display: flex;
     flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  .title {
+    font-size: var(--font-size-l);
   }
 }
