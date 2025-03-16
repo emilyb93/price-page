@@ -1,19 +1,10 @@
+import { PlanInfo } from "../../../types";
 import GetStartedButton from "../../atoms/GetStartedButton/GetStartedButton";
 import PriceText from "../../atoms/PriceText/PriceText";
 import Feature from "../../molecules/Feature/Feature";
 
 import "./PricingCard.css";
 
-export interface FeatureInfo {
-  featureText: string;
-  available: boolean;
-}
-export interface PlanInfo {
-  title: string;
-  subtitle: string;
-  price: number;
-  features: FeatureInfo[];
-}
 interface PricingCardProps {
   planInfo: PlanInfo;
 }

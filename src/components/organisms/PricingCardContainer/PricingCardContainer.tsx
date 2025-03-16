@@ -1,11 +1,14 @@
-import cardInfo from "../../../data/cardInfo.json";
+import { usePlan } from "../../wrappers/PlanProvider/PlanProvider";
 import PricingCard from "../PricingCard/PricingCard";
 import "./PricingCardContainer.css";
 
 function PricingCardContainer() {
+  const plans = usePlan();
+
+  if (!plans) return null;
   return (
     <div className="pricing-card-container">
-      {cardInfo.plans.map((plan) => (
+      {plans.map((plan) => (
         <PricingCard key={plan.title} planInfo={plan} />
       ))}
     </div>
